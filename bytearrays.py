@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# encoding: utf-8
 
 # store bytearrays here
 # you can use https://xantorohara.github.io/led-matrix-editor to make your own
