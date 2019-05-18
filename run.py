@@ -6,7 +6,6 @@ import spidev
 import curses
 
 import bytearrays
-index = 1
 
 # 0x00 0x01 ~ 0xFF...
 # 0x66 ...
@@ -100,7 +99,7 @@ def main(stdscr):
 
                     for j in range(0,8):
 
-                        data[0] = ~int(mat[j],2) # reverse the data and convert to hex
+                        data[0] = ~int(mat[j],2) # reverse
                         data[2] = 0xFF
                         data[1] = 0xFF
                         data[3] = 0x01 << j
