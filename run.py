@@ -73,19 +73,6 @@ def main(stdscr):
                 nowmat = bytearrays.testarrays[5]
 
         # send
-        '''
-        if nowmat:
-            for j in range(0,8):
-
-                data[0] = ~int(nowmat[j],2) # reverse the data and convert to hex
-                data[2] = 0xFF
-                data[1] = 0xFF
-                data[3] = 0x01 << j
-
-                spi.xfer(data)
-                # time.sleep(0.08)
-        '''
-
         if nowmat:
 
             if len(nowmat) > 1:
