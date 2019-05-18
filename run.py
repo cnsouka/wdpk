@@ -43,7 +43,7 @@ def main(stdscr):
     stdscr.addstr('| | | |_| |___| |_ \n')
     stdscr.addstr('| | | | . | . | ._|\n')
     stdscr.addstr('|_____|___|  _|_,_|\n')
-    stdscr.addstr('          |_|       cnsouka @ 2019  \n\n')
+    stdscr.addstr('          |_|      \n\n')
     stdscr.addstr('*** press any key to start... ***')
 
     stdscr.nodelay(1)
